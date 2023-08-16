@@ -145,6 +145,118 @@
             </a>
           </div>
     </section>
+    
+    <!-- Portfolio Section -->	
+    <hr class="m-0">	
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">	
+      <div class="my-auto">	
+        <h2 class="mb-5">Portfolio</h2>	
+        <div id="myBtnContainer">	
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('webdev')"> Mobile Development</button>	
+        <!--
+          <button class="btn" onclick="filterSelection('webdev')"> Web Development</button>	
+          <button class="btn" onclick="filterSelection('javascript')"> JavaScript</button>	
+          <button class="btn" onclick="filterSelection('unity')"> Unity</button>	
+          <button class="btn" onclick="filterSelection('ar')"> Augmented Reality(AR)</button>	
+        -->
+        </div>	
+        <!-- Portfolio Gallery Grid -->	
+        <div class="row">	
+          <div class="column javascript webdev">	
+            <div class="content">
+              <iframe width="410" height="270" src="https://www.youtube.com/embed/jX6Of5TuA2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+              </iframe>
+              	
+              <h4>Ticketmaster API</h4>	
+              <p>The Ticketmaster API android app I developed from scratch.<br/> <b>Programming Language: Kotlin</b></p>	
+            </div>	
+          </div>	 
+
+
+          <!--
+          <div class="">	
+            <div class="content">	
+              <a href="" target="_blank">	
+                <img src="" class="gallery-thumbnail">	
+              </a>	
+              <h4></h4>	
+              <p>Designed, led and tutored a te-toimisto and ELY-Keskus provisioned fullstack web development program at The Shortcut <br/> <b>Technologies: React (Frontend), WordPress(Backend)</b></p>	
+            </div>	
+          </div>	
+          <div class="">	
+            <div class="content">	
+              <a href="" target="_blank">	
+                <img src="" alt="Creathon's Website" class="gallery-thumbnail">	
+              </a>	
+              <h4></h4>	
+              <p>	
+              <br/>	
+            <b>Technologies: </b></p>	
+            </div>	
+          </div>	
+          <div class="">	
+            <div class="content">	
+              <a href="" target="_blank">	
+                <img src="" alt="" class="gallery-thumbnail">	
+              </a>	
+              <h4></h4>	
+              <p>	
+                <br />	
+                <b>Technologies: </b>	
+              </p>	
+            </div>	
+          </div>	
+          <div class="">	
+            <div class="content">	
+              <a href="" target="_blank">	
+                <img src="" alt="" class="gallery-thumbnail">	
+              </a>	
+              <h4></h4>	
+              <p>	
+                <br />	
+                <b>Technologies: </b>	
+              </p>	
+            </div>	
+          </div>	
+          <div class="r">	
+            <div class="content">	
+              <a href="" target="_blank">	
+                <img src="" alt="" class="gallery-thumbnail">	
+              </a>	
+              <h4></h4>	
+              <p>	
+                <br />	
+                <b>Technologies: </b>	
+              </p>	
+            </div>	
+          </div>	
+          <div class="">	
+            <div class="content">	
+              <a href="" target="_blank">	
+                <img src="" alt="" class="gallery-thumbnail">	
+              </a>	
+              <h4></h4>	
+              <p>	
+                <br />	
+                <b>Technologies: </b>	
+              </p>	
+            </div>	
+          </div>	
+          <div class="">	
+            <div class="content">	
+              <a href="" target="_blank">	
+                <img src="" alt="" class="gallery-thumbnail">	
+              </a>	
+              <h4></h4>	
+              <p>
+                <br />	
+                <b>Technologies:</b>	
+              </p>	
+            </div>	
+          </div>	-->
+          <!-- END GRID -->	
+    </section>
 
     <!--Education Section-->
     <hr class="m-0">
@@ -160,15 +272,17 @@
             </div>
             Cumulative GPA: 3.73<br><br>
             <div><b>Relevant Coursework:</b><br>
-              <li>IP-Networks</li>
-              <li>Linux Essentials</li>
-              <li>Relational Databases & SQL</li>
-              <li>Basics of mobile software development</li>
-              <li>Fundamentals (Python, C#, C++, Java)</li>
-              <li>OOP</li>
-              <li>Algorithms and Data Structures</li>
-              <li>Fundamentals of Web Development (HTML, CSS, JavaScript)</li>
-              <li>RESTful web services</li>
+              <ul>
+                <li>IP-Networks</li>
+                <li>Linux Essentials</li>
+                <li>Relational Databases & SQL</li>
+                <li>Basics of mobile software development</li>
+                <li>Fundamentals (Python, C#, C++, Java)</li>
+                <li>OOP</li>
+                <li>Algorithms and Data Structures</li>
+                <li>Fundamentals of Web Development (HTML, CSS, JavaScript)</li>
+                <li>RESTful web services</li>
+              </ul>
 			      </div><br>
             <div><b>Licenses & certifications:</b><br>
               <ul>
@@ -198,14 +312,18 @@
 
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
+
+          <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
+            <img class="custom_logo" src="img/csharplogo.png" style="height: 52px">
+          </li>
           <li class="list-inline-item">
             <i class="fab fa-html5"></i>
           </li>
           <li class="list-inline-item">
             <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-bootstrap"></i>
           </li>
           <li class="list-inline-item">
             <i class="fab fa-js-square"></i>
@@ -222,15 +340,7 @@
           <li class="list-inline-item">
             <i class="fab fa-wordpress"></i>
           </li>
-          <li class="list-inline-item">
-            <i class="fab fa-php"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-laravel"></i>
-          </li>
-          <li class="list-inline-item">
-            <img class="custom_logo" src="img/csharplogo.png" style="height: 52px">
-          </li>
+          
           <li class="list-inline-item">
             <img class="custom_logo" src="img/unitylogo.png" style="height: 95px">
           </li>
