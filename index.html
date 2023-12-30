@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hicham Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="stylesheet" href="./assets/style/style.css" />
+  <link rel="stylesheet" href="./assets/style/mediaqueries.css" />
 </head>
 <body>
   <nav id="desktop-nav">
@@ -38,12 +38,13 @@
 
   <section id="profile">
     <div class="section__pic-container">
-      <img src="./assets/profile-pic.png" alt="Hicham Afilali piture" />
+      <img src="./assets/img/profile-pic.png" alt="Hicham Afilali piture" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Hicham Afilali</h1>
       <br />
+      <!-- <p class="section__text__p2">Frontend developer</p> -->
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('./resume.pdf')">Download CV</button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -51,16 +52,19 @@
         </button>
       </div>
       <div id="social-container">
-        <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://linkedin.com/'" />
-        <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'" />
+        <img src="./assets/img/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://linkedin.com/'" />
+        <img src="./assets/img/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'" />
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'" />
+    <img src="./assets/img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'" />
   </section>
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
+      <!-- <div class="section__pic-container">
+        <img src="./assets/img/about-pic.png" alt="Profile picture" class="about-pic" />
+      </div> -->
       <div class="about-details-container">
         <div class="text-container">
           <p style="padding-left: 25%; padding-right: 25%; text-align: justify;">
@@ -70,19 +74,23 @@
         <div class="about-containers">
 
           <div class="education-container">
-            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <img src="./assets/img/education.png" alt="Education icon" class="icon" />
             <h3>Education</h3>
             <p>B.Eng - Information Technology</p>
             <p>Metropolia University of Applied Sciences</p>
-            <p style="font-size: small;">Aug 2020 - 2024</p><br />
+            <p style="font-size: small;">Aug 2020 - 2024</p>
+            <br />
 
-            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <img src="./assets/img/experience.png" alt="Experience icon" class="icon" />
             <h3>Certifications</h3>
-            <p>AWS Academy Cloud Foundations</p><br />
-            <p style="font-style: italic; font-size: small;">The certificate can be viewed from <a href="https://www.credly.com/badges/32a73457-a585-4f11-8bba-c3622d3799c1?source=linked_in_profile" style="font-weight: bold;">here</a>.</p>
+            <p>AWS Academy Cloud Foundations<br />
+              <!-- Amazon Web Services (AWS) --></p>
+              <p style="font-style: italic; font-size: small;">The certificate can be viewed from <a href="https://www.credly.com/badges/32a73457-a585-4f11-8bba-c3622d3799c1?source=linked_in_profile" style="font-weight: bold;">here</a>.</p>
+            <!-- <p>B.Eng Information Technology<br />Information Technology</p> -->
           </div>
 
           <div class="education-container">
+            <!-- <img src="/assets./experience.png" alt="Experience icon" class="icon" /> -->
             <h3>Relevant Coursework</h3>
             <div class="course-list">
               <ul>
@@ -99,10 +107,14 @@
               </ul>
           </div>
           </div>
+
         </div>
+
+        
+
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    <img src="./assets/img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
 
   <section id="experience">
@@ -111,44 +123,45 @@
     <div class="experience-details-container">
       <div class="about-containers">
         <div class="details-container">
+          <!-- <h2 class="experience-sub-title">Frontend Developer</h2> -->
           <div class="article-container">
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>Java</h3>
                 <P>Basics</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>Python</h3>
                 <P>Basics</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>C++</h3>
                 <P>Basics</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>JavaScript</h3>
                 <P>Basics</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>HTML</h3>
                 <P>Experienced</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>CSS</h3>
                 <P>Experienced</P>
@@ -157,44 +170,45 @@
           </div>
         </div>
         <div class="details-container">
+          <!-- <h2 class="experience-sub-title">Frontend Developer</h2> -->
           <div class="article-container">
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>AWS</h3>
                 <P>Basics</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>Linux</h3>
                 <P>Basics</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>Git</h3>
                 <P>Basics</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>Spring Boot</h3>
                 <P>Basics</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>Node JS</h3>
                 <P>Basics</P>
               </div>
             </article>
             <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <img src="./assets/img/checkmark.png" alt="Experience icon" class="icon" />
               <div>
                 <h3>Express</h3>
                 <P>Basics</P>
@@ -204,7 +218,7 @@
         </div>
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    <img src="./assets/img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
 
   <section id="projects">
@@ -215,7 +229,7 @@
 
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+            <img src="./assets/img/project-1.png" alt="Project 1" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">AWS Project</h2>
           <p>Host a Resume with AWS</p>
@@ -228,7 +242,7 @@
 
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+            <img src="./assets/img/project-3.png" alt="Project 3" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">AWS Project</h2>
           <p>Matching Game</p>
@@ -241,7 +255,7 @@
 
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+            <img src="./assets/img/project-2.png" alt="Project 2" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">RESTful-WebServices</h2>
           <p>SSJ-Estate</p>
@@ -261,17 +275,19 @@
       <div class="about-containers">
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-4.png" alt="Project 1" class="project-img" />
+            <img src="./assets/img/project-4.png" alt="Project 1" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">Project One</h2>
+          <h2 class="experience-sub-title project-title">REST API - Android App</h2>
+          <p>Parsing JSON from Ticketmaster API</p>
+          <p>Kotlin • Android Studio</p><br />
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HichamAf/Ticketmaster_API'">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Live Demo</button>
           </div>
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-5.png" alt="Project 2" class="project-img" />
+            <img src="./assets/img/project-5.png" alt="Project 2" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Project Two</h2>
           <div class="btn-container">
@@ -281,7 +297,7 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-6.png" alt="Project 3" class="project-img" />
+            <img src="./assets/img/project-6.png" alt="Project 3" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Project Three</h2>
           <div class="btn-container">
@@ -298,11 +314,11 @@
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
       <div class="contact-info-container">
-        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <img src="./assets/img/email.png" alt="Email icon" class="icon contact-icon email-icon" />
         <p><a href="mailto:hicham.afilali@outlook.com">hicham.afilali@outlook.com</a></p>
       </div>
       <div class="contact-info-container">
-        <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon" />
+        <img src="./assets/img/linkedin.png" alt="Linkedin icon" class="icon contact-icon" />
         <p><a href="https://linkedin.com">Linkedin</a></p>
       </div>
     </div>
@@ -320,6 +336,6 @@
     </nav>
     <p>Copyright &#169; 2023 Hicham Afilali. All Rights Reserved</p>
   </footer>
-  <script src="script.js"></script>
+  <script src="./assets/script/script.js"></script>
 </body>
 </html>
